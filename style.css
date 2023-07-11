@@ -1,93 +1,148 @@
-.intro-container{
-    display: flex;
-    margin: 100px;
-    background-color:rgba(229, 84, 115, 0.10);
-    ;
-
-    padding: 20px;
-    
-}
-.flower{
-    height: 800px;
-    width: 635px;
-}
-.first-intro{
-    margin-top: 220px;
-}
-.btn{
-    color: #fbf9f9;
-font-family: Lato;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-
-border-radius: 8px;
-background: #E55473;
-}
-.featured{
-    text-align: center;
-    
-}
-.image{
-    display: flex;
-    margin-left: 50px;
-    text-align: center;
-    border:1px solid gray ;
-}
-.images1{
-    display: flex;
-    margin-top: 150px;
-    text-align: center;
-    justify-content: space-around;
-    padding-inline: 0px;
-flex-shrink: 0;
-border-radius: 8px;
-background: rgba(39, 39, 39, 0.05);
-margin-left: 100px;
-margin-right: 100px;
-}
-.hot-section{
-    display: flex;
-    margin: 100px;
-    padding: 20px ;
-}
-.scn-intro{
-    margin-top: 200px;
-}
-.images2{
-    display: flex;
-    margin: 100px;
-    
-width: 300px;
-height: 300px;
-justify-content: space-between;
-
-}
-.images4{
-    display: flex;
-    justify-content: space-between;
-    margin: 150px;
+/* Header section */
+.intro-container {
+  display: flex;
+  margin: 0 0 50px 0;
+  background-color: rgba(229, 84, 115, 0.1);
+  /* padding: 20px; */
+  height: 100vh;
 }
 
-
-.back{
-    background-image: url(./images/Rectangle\ 9.png);
-    width: 1250px;
-height: 420px;
-flex-shrink: 0;
-margin: 50px;
+.right {
+  width: 50%;
+  display: flex;
+  align-items: end;
 }
-.form1{
-    text-align: center;
-    margin-top: 200px ;
-    
-
+.left {
+  width: 50%;
+  padding: 0 100px;
+  margin: auto;
 }
-.foot{
-    background-color: black;
-    color: white;
-    height: 300px ;
-    width: 1250px;
-    margin:50px
+.intro-title {
+  font-size: 60px;
+}
+.left > p {
+  font-size: 14px;
+  color: #4a4949;
+}
+.btn {
+  color: #fbf9f9;
+  background: #e55473;
+  font-size: 16px;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+
+  /* Featured Flowers Section */
+}
+.featured {
+  text-align: center;
+}
+.image {
+  display: flex;
+  height: 60vh;
+  margin: 0 130px;
+  text-align: center;
+}
+
+.image > div {
+  width: 33.33%;
+  border-radius: 50% 50% 0 0;
+  padding-top: 90px;
+  margin: 10px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.flower-namer-container {
+  margin: 0 130px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bg-1 {
+  background-color: #f1dde7;
+}
+.bg-2 {
+  background-color: #d9eff0;
+}
+.bg-3 {
+  background-color: #e3ebdb;
+}
+
+.images1 {
+  display: flex;
+  margin-top: 150px;
+  text-align: center;
+  justify-content: space-around;
+  padding-inline: 0px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.hot-section {
+  display: flex;
+  margin: 100px;
+  padding: 20px;
+}
+.scn-intro {
+  margin: auto;
+  text-align: center;
+}
+.images2 {
+  display: flex;
+  margin: 100px;
+  justify-content: space-between;
+}
+.images2 > div {
+  width: 25%;
+  margin: 10px;
+}
+.images4 {
+  display: flex;
+  justify-content: space-between;
+  margin: 150px;
+}
+
+.back {
+  background-image: url(./images/Rectangle\ 9.png);
+  width: 1250px;
+  height: 420px;
+  flex-shrink: 0;
+  margin: 50px;
+}
+.form1 {
+  text-align: center;
+  margin-top: 200px;
+}
+.email {
+  border: none;
+  background-color: white;
+  width: 50%;
+  padding: 13px;
+  border-radius: 5px;
+}
+.foot {
+  background-color: black;
+  color: white;
+  height: 300px;
+  width: 1250px;
+  margin: 50px;
+}
+.more-info {
+  background-color: #e3ebdb;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.hot-section > p {
+  font-size: 9px;
+  color: rgba(202, 199, 199, 0.6);
+}
+.featured-cls > p {
+  font-size: 15px;
+}
+.more-info > p {
+  font-size: 14px color rgba(117, 116, 116, 0.6);
 }
