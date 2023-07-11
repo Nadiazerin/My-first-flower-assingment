@@ -43,4 +43,14 @@ background: #E55473;
 flex-shrink: 0;
 border-radius: 8px;
 background: rgba(39, 39, 39, 0.05);
+margin-left: 100px;
+margin-right: 100px;
+}
+.hot-section{
+    display: flex;
+    margin: 100px;
+    padding: 20px ;
+}
+.scn-intro{
+    margin-top: 200px;
 }
