@@ -1,29 +1,8 @@
-/* Header section */
-.intro-container {
-  display: flex;
-  margin: 0 0 50px 0;
-  background-color: rgba(229, 84, 115, 0.1);
-  /* padding: 20px; */
-  height: 100vh;
+body {
+  margin: 0;
 }
+/* Common */
 
-.right {
-  width: 50%;
-  display: flex;
-  align-items: end;
-}
-.left {
-  width: 50%;
-  padding: 0 100px;
-  margin: auto;
-}
-.intro-title {
-  font-size: 60px;
-}
-.left > p {
-  font-size: 14px;
-  color: #4a4949;
-}
 .btn {
   color: #fbf9f9;
   background: #e55473;
@@ -32,20 +11,60 @@
   padding: 10px 15px;
   border-radius: 6px;
   cursor: pointer;
+}
 
-  /* Featured Flowers Section */
-}
-.featured {
+.title {
+  font-size: 26px;
+  font-weight: bold;
   text-align: center;
+  margin-top: 50px;
 }
-.image {
+
+.details {
+  text-align: center;
+  color: #585454;
+  margin-bottom: 50px;
+}
+
+/* Header section */
+.intro-container {
+  display: flex;
+  margin: 0 0 50px 0;
+  background-color: #e554731a;
+  height: 100vh;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  align-items: end;
+}
+
+.left {
+  width: 50%;
+  padding: 0 100px;
+  margin: auto;
+}
+
+.left > h1 {
+  font-size: 60px;
+}
+
+.left > p {
+  font-size: 14px;
+  color: #4a4949;
+}
+
+/*  Featured Section */
+
+.featured-images {
   display: flex;
   height: 60vh;
-  margin: 0 130px;
+  margin: 0 150px;
   text-align: center;
 }
 
-.image > div {
+.featured-images > div {
   width: 33.33%;
   border-radius: 50% 50% 0 0;
   padding-top: 90px;
@@ -54,10 +73,13 @@
   align-items: end;
   justify-content: center;
 }
-.flower-namer-container {
-  margin: 0 130px;
+
+.flowers-name-container {
+  margin: 0 150px;
   display: flex;
   justify-content: space-around;
+  text-decoration: underline;
+  font-size: 18px;
 }
 
 .bg-1 {
@@ -70,67 +92,97 @@
   background-color: #e3ebdb;
 }
 
-.images1 {
+/* Services */
+
+.services {
   display: flex;
-  margin-top: 150px;
-  text-align: center;
+  margin: 120px 150px;
   justify-content: space-around;
-  padding-inline: 0px;
-  flex-shrink: 0;
   border-radius: 8px;
-  background: rgba(39, 39, 39, 0.05);
-  margin-left: 100px;
-  margin-right: 100px;
+  background: #2727270d;
+  padding: 30px;
 }
+.services > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services img {
+  width: 55px;
+}
+
+/* Hot Deal section */
 .hot-section {
   display: flex;
-  margin: 100px;
-  padding: 20px;
+  background-color: #e26f881a;
+  padding: 50px 200px;
 }
 .scn-intro {
   margin: auto;
   text-align: center;
 }
-.images2 {
+
+/* Instagram images section */
+.instagram-images {
   display: flex;
-  margin: 100px;
+  margin: 0 150px;
   justify-content: space-between;
 }
-.images2 > div {
+.instagram-images > div {
   width: 25%;
   margin: 10px;
 }
-.images4 {
+
+/* Subscriptions section */
+.subscriptions-con {
+  background-image: url(./images/Rectangle\ 9.png);
+  height: 300px;
+  margin: 50px 150px;
+  border-radius: 6px;
   display: flex;
-  justify-content: space-between;
-  margin: 150px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
 }
 
-.back {
-  background-image: url(./images/Rectangle\ 9.png);
-  width: 1250px;
-  height: 420px;
-  flex-shrink: 0;
-  margin: 50px;
-}
-.form1 {
-  text-align: center;
-  margin-top: 200px;
-}
 .email {
   border: none;
   background-color: white;
-  width: 50%;
+  width: 400px;
   padding: 13px;
   border-radius: 5px;
 }
-.foot {
-  background-color: black;
+
+/* Footer section */
+.footer {
+  background-color: rgb(19, 17, 17);
   color: white;
-  height: 300px;
-  width: 1250px;
-  margin: 50px;
+  /* height: 250px; */
+  text-align: center;
+  padding: 60px 0;
 }
+.footer-content {
+  color: rgb(195, 195, 195);
+}
+.copyright {
+  margin: 10px;
+  color: gray;
+}
+
+.social-media-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media-images > div {
+  margin: 10px;
+}
+.social-media-images img {
+  cursor: pointer;
+}
+
 .more-info {
   background-color: #e3ebdb;
   margin-left: 50px;
@@ -147,8 +199,5 @@
   font-size: 14px color rgba(117, 116, 116, 0.6);
 }
 .off {
-  color: red;
-}
-.foot > p {
-  font-size: 9px;
+  color: #cc5050;
 }
