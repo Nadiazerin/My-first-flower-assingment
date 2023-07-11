@@ -27,6 +27,7 @@ background: #E55473;
 }
 .featured{
     text-align: center;
+    
 }
 .image{
     display: flex;
@@ -53,4 +54,40 @@ margin-right: 100px;
 }
 .scn-intro{
     margin-top: 200px;
+}
+.images2{
+    display: flex;
+    margin: 100px;
+    
+width: 300px;
+height: 300px;
+justify-content: space-between;
+
+}
+.images4{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+}
+
+
+.back{
+    background-image: url(./images/Rectangle\ 9.png);
+    width: 1250px;
+height: 420px;
+flex-shrink: 0;
+margin: 50px;
+}
+.form1{
+    text-align: center;
+    margin-top: 200px ;
+    
+
+}
+.foot{
+    background-color: black;
+    color: white;
+    height: 300px ;
+    width: 1250px;
+    margin:50px
 }
